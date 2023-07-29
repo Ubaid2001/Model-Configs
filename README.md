@@ -1,0 +1,1 @@
+The models and processedData folder is located within the one drive.
