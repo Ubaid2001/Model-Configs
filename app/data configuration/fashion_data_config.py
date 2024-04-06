@@ -12,11 +12,13 @@ import matplotlib.pyplot as plt
 
 csv_file_path = "../../fashionData/styles.csv"
 
+# These files can be found in google drive.
 # data_config_csv = "./fashionData/dataConfig12.csv"
 data_config_csv = "./fashionData/dataConfig13.csv"
 
-folder_path = "C:/Users/ubaid/Downloads/images"
-dir_path = "C:\\Users\\ubaid\\Downloads\\images\\"
+# Path to fashion images folder which should be downloaded on local computer.
+folder_path = ""
+dir_path = ""
 
 if not os.path.exists(data_config_csv):
 

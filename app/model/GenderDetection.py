@@ -1,5 +1,6 @@
 # Ubaid Mahmood
 # S1906881
+# The stated files will be located in google Drive.
 
 import tensorflow as tf
 from keras.callbacks import TensorBoard as tb

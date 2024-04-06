@@ -64,7 +64,7 @@ def run():
     # To identify whether to block or display
     for i in range(1, 31):
 
-        frame = cv2.imread(f"C:\\Users\\ubaid\\Documents\\women_pics\\Fully Clothed\\{i}.jpg")
+        # frame = cv2.imread(f"women_pics\\Fully Clothed\\{i}.jpg")
         # frame = cv2.imread(f"women_pics\\Haram\\{i}.jpg")
         #
         # frame = cv2.imread(f"men_pics - Copy\\Fully Clothed\\{i}.jpg")
@@ -72,9 +72,6 @@ def run():
 
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         frame2 = frame.copy()
-
-        # gender_detection = GenderDetection()
-        # Gmodel = gender_detection.config_model()
 
         print(f'{i}.jpg')
 
