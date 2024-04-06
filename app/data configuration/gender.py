@@ -6,10 +6,7 @@ import os
 from sklearn.model_selection import train_test_split
 
 # Loading the data
-wiki_meta = pd.read_csv('wiki_meta.csv')
-
-# Deleting the age column as we dont need it
-# meta = meta.drop(['age'], axis=1)
+wiki_meta = pd.read_csv('../../csvs/wiki_meta.csv')
 
 # Spliting the dataset into train and test set
 D_train, D_test = train_test_split(wiki_meta, test_size=0.1, random_state=42)
@@ -58,7 +55,7 @@ if not os.path.exists(output_dir_test_male):
 if not os.path.exists(output_dir_test_female):
     os.makedirs(output_dir_test_female)
 
-# Finally processing the image training and testting set
+# Finally processing the image training and testing set
 counter = 0
 
 for image in D_train.values:

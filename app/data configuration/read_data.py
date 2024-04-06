@@ -1,38 +1,11 @@
-import pickle
 import numpy as np
 import pandas as pd
 import cv2
 import matplotlib.pyplot as plt
 
-# file = open('processedData/wiki_data.pickle', 'rb')
-#
-# data = pickle.load(file)
-#
-# file.close()
-#
-# print('Showing the pickled data: ')
-#
-# for d in data['age']:
-#     print(f'The data: {d}')
-
-
-# print(f'The data: {data["images"]}')
-
-# images = np.array(data['images'])
-# gender = np.array(data['gender'])
-# print(f'''The shape of the images array is : {images.shape}\n
-# The shape is an image is : {images[0].shape}\n
-# The shape of the gender array is : {gender.shape}''')
-
-
-df = pd.read_csv("imdb_meta.csv")
-# print(df['path'])
+df = pd.read_csv("../../csvs/imdb_meta.csv")
 images_array = df['path']
-# print(images_array)
-# images_array = np.array(images_array)
-# print(images_array)
 image = cv2.imread(images_array[0])
-# print(image)
 
 t = 0
 images_repo = []
@@ -60,7 +33,6 @@ for i in gender_array:
         genderCategorical.append([0.0, 1.0])
 genderCategorical = np.array(genderCategorical)
 
-# print(genderCategorical)
 img = images_repo[0]
 print(img)
 plt.title(genderCategorical[0])

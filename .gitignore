@@ -2,3 +2,35 @@
 /opencv_frame_0.png
 /models/
 /processedData/
+/clothes
+/csvs
+/ECN-Logs
+/ECN-Logs-DC6-dg
+/ECN-Logs-DC6-dg-LTF
+/ECN-Logs-DC8-dg
+/ECN-Logs-DC8-dg-LTF
+/ECN-Logs-DC8-dg-LTF-64
+/ECN-Logs-DC10-dg-LTF
+/ECN-Logs-DC11-dg-LTF
+/ECN-Logs-DC12-dg-LTF
+/ECN-Logs-DC12-dg-LTF_v2
+/ECN-Logs-DC13-dg-LTF
+/fashionData
+/fashionImages
+/efficientNet_models
+/logs
+/logs_vgg16_3
+/logs_vgg16_4
+/logs_vgg16_5
+/logs_vgg16_6
+/logs_vgg16_7
+/wiki_crop
+/wiki
+/lite-model_movenet_singlepose_lightning_3.tflite
+/matlab_matrix.mat
+/mmod_human_face_detector.dat
+/wiki.tar.gz
+/app/model experiments/
+/app/data configuration/read_data.py
+/app/data configuration/gender.py
+/app/data configuration/mat.py
